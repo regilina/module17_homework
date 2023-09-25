@@ -1,5 +1,5 @@
-import { revertString } from "../../utils/revertString.js";
+import { revertString } from '../../utils/revertString.js'
 
-describe("tests for revertString function", () => {
-  it("should reverse string", () => expect(revertString("abc")).toBe("cba"));
-});
+describe('tests for revertString function', () => {
+  it('should reverse string', () => expect(revertString('abc')).toBe('cba'))
+})

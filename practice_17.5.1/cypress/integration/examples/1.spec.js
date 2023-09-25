@@ -8,7 +8,7 @@ context('Get wiki', () => {
       const header = data[0]
 
       console.log(header)
-      expect(data[0].innerText).to.deep.eq("Тестирование программного обеспечения")
+      expect(data[0].innerText).to.deep.eq('Тестирование программного обеспечения')
     })
   })
 })
